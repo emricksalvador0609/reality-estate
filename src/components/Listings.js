@@ -44,7 +44,7 @@ const Listings = () => (
         {properties.map((property) => (
           <a
             key={property.id}
-            href="#"
+            href="#listings"
             className="relative group block rounded-xl overflow-hidden shadow-lg cursor-pointer"
           >
             <img
